@@ -1,5 +1,5 @@
 {
-  "name": "node-module-tutorial",
+  "name": "todo-api",
   "version": "1.0.0",
   "description": "",
   "main": "todo.js",
@@ -16,5 +16,8 @@
     "url": "https://github.com/anjanamohanty/node-module-tutorial/issues"
   },
   "homepage": "https://github.com/anjanamohanty/node-module-tutorial#readme",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "uuid": "^2.0.2"
+  }
 }
